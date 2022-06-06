@@ -18,5 +18,8 @@ class MainActivity : AppCompatActivity() {
         mainViewPager.adapter = mViewPagerAdapter
 //        페이지가 많아질 때, 간단하게 부드럽도록 지원하는 기능
         mainViewPager.offscreenPageLimit = 5
+
+//        탭 레이아웃을 뷰페이지와 연결
+        myTabLayout.setupWithViewPager(mainViewPager)
     }
 }
