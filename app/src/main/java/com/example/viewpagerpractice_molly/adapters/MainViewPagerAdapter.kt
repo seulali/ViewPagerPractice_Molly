@@ -23,6 +23,4 @@ class MainViewPagerAdapter(fm : FragmentManager) : FragmentPagerAdapter(fm) {
             return GreetingsFragment()
         }
     }
-
-
 }
